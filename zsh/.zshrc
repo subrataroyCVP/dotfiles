@@ -52,7 +52,7 @@ source ~/.oh-my-zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
 source ~/.oh-my-zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
 # Load theme
-source ~/.oh-my-zsh/theme/powerlevel10k/powerlevel10k.zsh-theme
+source ~/.oh-my-zsh/themes/powerlevel10k/powerlevel10k.zsh-theme
 
 # Enable bash completion in zsh
 autoload -U +X bashcompinit && bashcompinit
