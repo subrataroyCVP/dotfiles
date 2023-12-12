@@ -43,9 +43,6 @@ Follow these steps to clone and install this repository:
    bash install.sh
    ```
 
-   ```
-   git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ~/.oh-my-zsh/themes/powerlevel10k
-   ```
 
 5. Sit back and observe the progress:
    The installation script will display progress and informational messages in the terminal. It may also prompt for input or confirmation during the setup process.
@@ -53,7 +50,24 @@ Follow these steps to clone and install this repository:
 6. Post-installation:
    A log file will be generated at `/tmp/dotfiles-installation-<timestamp>.log` upon completion, containing the details of the installation process. Review it to ensure successful installation.
 
-7. Enjoy your personalized workspace:
+7. Verify if powerlevel10k theme cloned.
+
+   Run:
+   ```
+   cd ~/.oh-my-zsh/themes/powerlevel10k
+   ```
+   
+   if returns the following:
+   ```
+   cd: no such file or directory: /home/subrataroy/.oh-my-zsh/themes/powerlevel10k
+   ```
+
+   Run the following command to clone:
+   ```
+   git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ~/.oh-my-zsh/themes/powerlevel10k
+   ```
+
+8. Close all terminal sessions and start new session. Enjoy your personalized workspace:
    Explore your development environment set up according to the customized dotfiles.
 
 > **Quick Install:** You can also install the dotfiles using a single command that fetches the install script directly from the repository. However, be aware that this will bypass user confirmations and install all scripts listed in the `execute_script` function by default. If you're comfortable with this, run:
