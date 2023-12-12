@@ -73,8 +73,10 @@ function main() {
 
   # Install zsh theme
   echo_msg "Installing zsh theme"
-  cp -r "${dotfiles_dir}/zsh/powerlevel10k/" "${HOME}/.oh-my-zsh/themes/"
+  # cp -r "${dotfiles_dir}/zsh/powerlevel10k/" "${HOME}/.oh-my-zsh/themes/"
   # ln -sf "${dotfiles_dir}/zsh/powerlevel10k/" "${HOME}/.oh-my-zsh/themes/"
+  git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ~/powerlevel10k
+  echo 'source ~/powerlevel10k/powerlevel10k.zsh-theme' >>~/.zshrc
   echo_msg "Zsh theme installed"
 
   # Install zsh-autosuggestions plugin
