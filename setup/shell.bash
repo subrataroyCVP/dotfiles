@@ -72,7 +72,8 @@ function main() {
 
   # Install zsh theme
   echo_msg "Installing zsh theme"
-  ln -sf "${dotfiles_dir}/zsh/powerlevel10k/powerlevel10k.zsh-theme" "${HOME}/.oh-my-zsh/themes/"
+  mv  -v "${dotfiles_dir}/zsh/powerlevel10k/* ${HOME}/.oh-my-zsh/themes/"
+  # ln -sf "${dotfiles_dir}/zsh/powerlevel10k/powerlevel10k.zsh-theme" "${HOME}/.oh-my-zsh/themes/"
   echo_msg "Zsh theme installed"
 
   # Install zsh-autosuggestions plugin
