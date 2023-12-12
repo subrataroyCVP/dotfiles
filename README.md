@@ -62,6 +62,8 @@ curl https://raw.githubusercontent.com/subrataroyCVP/dotfiles/main/install.sh | 
 
 ## Additional Configurations
 
+- [poverlevel10k instructions](https://raw.githubusercontent.com/subrataroyCVP/dotfiles/main/zsh/powerlevel10k/README.md)
+
 The installation script includes the following additional scripts (Uncomment line #68-69 or run the specified script):
 
 - [setup-zsh.bash](https://raw.githubusercontent.com/subrataroyCVP/dotfiles/main/zsh/setup-zsh.bash): Sets up Zsh shell configuration.
