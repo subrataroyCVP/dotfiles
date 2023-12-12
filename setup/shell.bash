@@ -73,7 +73,7 @@ function main() {
 
   # Install zsh theme
   echo_msg "Installing zsh theme"
-  cp -rp "${dotfiles_dir}/zsh/powerlevel10k/" "${HOME}/.oh-my-zsh/themes/"
+  cp -r "${dotfiles_dir}/zsh/powerlevel10k/" "${HOME}/.oh-my-zsh/themes/"
   # ln -sf "${dotfiles_dir}/zsh/powerlevel10k/" "${HOME}/.oh-my-zsh/themes/"
   echo_msg "Zsh theme installed"
 
