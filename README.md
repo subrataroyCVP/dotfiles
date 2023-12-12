@@ -43,6 +43,10 @@ Follow these steps to clone and install this repository:
    bash install.sh
    ```
 
+   ```
+   git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ~/.oh-my-zsh/themes/powerlevel10k
+   ```
+
 5. Sit back and observe the progress:
    The installation script will display progress and informational messages in the terminal. It may also prompt for input or confirmation during the setup process.
 
