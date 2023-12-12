@@ -56,10 +56,11 @@ function main() {
     done
   fi
 
-  # Install Powerline fonts
+  # Install Powerline and Additional Fonts fonts
   echo_msg "Installing Powerline fonts"
   clone_repository "https://github.com/powerline/fonts.git" "fonts"
   (cd fonts && ./install.sh)
+  (cd additional-fonts && ./install.sh)
   rm -rf fonts
 
   # Clone oh-my-zsh
@@ -72,8 +73,8 @@ function main() {
 
   # Install zsh theme
   echo_msg "Installing zsh theme"
-  mv  -v "${dotfiles_dir}/zsh/powerlevel10k/* ${HOME}/.oh-my-zsh/themes/"
-  # ln -sf "${dotfiles_dir}/zsh/powerlevel10k/powerlevel10k.zsh-theme" "${HOME}/.oh-my-zsh/themes/"
+  mv -v "${dotfiles_dir}/zsh/powerlevel10k/*" "${HOME}/.oh-my-zsh/themes/"
+  # ln -sf "${dotfiles_dir}/zsh/powerlevel10k/" "${HOME}/.oh-my-zsh/themes/"
   echo_msg "Zsh theme installed"
 
   # Install zsh-autosuggestions plugin
