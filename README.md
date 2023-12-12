@@ -62,7 +62,7 @@ curl https://raw.githubusercontent.com/subrataroyCVP/dotfiles/main/install.sh | 
 
 ## Additional Configurations
 
-The installation script includes the following additional scripts by default:
+The installation script includes the following additional scripts (Uncomment line #68-69 or run the specified script):
 
 - [setup-zsh.bash](https://raw.githubusercontent.com/subrataroyCVP/dotfiles/main/zsh/setup-zsh.bash): Sets up Zsh shell configuration.
 - [setup-tmux.bash](https://raw.githubusercontent.com/subrataroyCVP/dotfiles/main/tmux/setup-tmux.bash): Sets up Tmux terminal multiplexer.

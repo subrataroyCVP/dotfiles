@@ -65,8 +65,8 @@ function execute_script() {
 
 # Execute additional scripts
 execute_script "https://raw.githubusercontent.com/subrataroyCVP/dotfiles/main/zsh/setup-zsh.bash"
-execute_script "https://raw.githubusercontent.com/subrataroyCVP/dotfiles/main/tmux/setup-tmux.bash"
-execute_script "https://raw.githubusercontent.com/subrataroyCVP/dotfiles/main/aws/setup-aws-cli.sh"
+# execute_script "https://raw.githubusercontent.com/subrataroyCVP/dotfiles/main/tmux/setup-tmux.bash"
+# execute_script "https://raw.githubusercontent.com/subrataroyCVP/dotfiles/main/aws/setup-aws-cli.sh"
 
 ## TODO: Add vi(*) setup and git
 
